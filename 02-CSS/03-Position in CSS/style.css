@@ -1,0 +1,25 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.back {
+height: 768px;
+width: 220vh;
+background-color: gray;
+position: relative;
+}
+.page {
+    height: 400px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    /* margin: 20vh auto; */
+    position: absolute;
+    }
+    .page {left: 450px ;bottom :290px;
+    }
+    .main {
+        height: 300px;
+        width: 190px;
+        background-color: rgb(239, 26, 26);
+        /* position: relative; */
+        position: absolute;
+        }
+        .main {left: 100px ;bottom :150px;
+        }  

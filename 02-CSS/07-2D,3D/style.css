@@ -1,0 +1,30 @@
+*{margin: 0;,padding: 0;}
+.border{
+    width: 30vh;
+    height: 30vh;
+    margin: 20vh auto;
+    background-color: tomato;
+    /* transform: translate(200px,100px); */
+    /* NOTE :PUBG CSS CANT ABLE TO USE 2 PROPERTY HAVING SAME TYPE  */
+    /* :rotate prop work but translate not work  */
+    /* transform: translate(200px,100px); */
+    /* transform: rotate(45deg); */
+    /* solution:- use margin in stead of translate */
+    transform: matrix(2,45,10,1,200 150);
+}
+.border:hover {
+    /* transform: rotate(45deg); */
+
+    /* transform: scalex(2); */
+    /* transform: scaley(2); */
+    /* transform: scale(2,2); */
+    /* transform: scale(0.75,0.75);*/
+
+    /* transform: skewx(45deg); */
+    /* transform: skewy(45deg); */
+    /* transform: skew(20deg,50deg); */
+     
+    /* matrix */
+    background-color: rgb(104, 246, 191);
+    /* border-radius: 50%; */
+}

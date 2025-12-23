@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border</title>
+    <!-- Today We Learn Border Properties -->
+    <style>
+       /* *{margin :0; padding :0;}  */
+       .border{
+        height: 40vh;
+        width: 32vh;
+        margin-bottom: 10vh;
+        background-color: #404040;
+        float: left ;margin-right :1%;
+        box-sizing: border-box;
+       }
+       div h1{
+        padding: 10%; 
+        color: whitesmoke;
+       }
+       /* Note:PUBG- */
+       /* WHEN WE GIVE width to border it increase div size */
+       .b1{
+        border-style: solid;
+        border-width: 50px;
+        border-color: tomato;
+       }
+       /* To solve this problem we use box-sizing: border-box :border-box */
+       .b2{
+        border-style: solid;
+        border-width: 50px;
+        border-color: tomato;
+       }
+       .b3{
+        border-left:gold 50px solid ;
+       }
+       .b4{
+        border-top:gold 50px solid ;
+        border-bottom:gold 50px solid;
+       }
+       .b5{
+        border-top:gold 50px solid ;
+        border-right:rgb(255, 0, 0) 50px solid;
+        border-bottom:rgb(0, 255, 38) 50px solid ;
+        border-left:rgb(0, 149, 255) 50px solid;
+       }
+       .b6{
+        border-top:gold 104px solid ;
+        border-right:rgb(255, 0, 0) 50px solid;
+        border-bottom:rgb(0, 255, 38) 50px solid ;
+        border-left:rgb(0, 149, 255) 50px solid;
+       }
+       .b7{
+        border-top:gold 181px solid ;
+        border-right:rgb(255, 0, 0) 50px solid;
+        border-bottom:rgb(0, 255, 38) 50px solid ;
+        border-left:rgb(0, 149, 255) 50px solid;
+       }
+       .b8{
+        border-top:rgb(0, 229, 255) 50px solid ;
+        border-right:rgb(255, 0, 0) 0px solid;
+        border-bottom:rgb(0, 255, 38) 50px solid ;
+        border-left:rgb(0, 149, 255) 50px solid;
+       }
+       .b9{
+        border-top:gold 50px solid ;
+        border-right:rgb(255, 0, 0) 135px solid;
+        border-bottom:rgb(0, 255, 38) 50px solid ;
+        border-left:rgb(0, 149, 255) 50px solid;
+       }
+       .b10{
+        border-top:gold 80px solid ;
+        border-right:rgb(255, 0, 0) 92px solid;
+        border-bottom:rgb(0, 255, 38) 80px solid ;
+        border-left:rgb(0, 149, 255) 93px solid;
+       }
+       .b11{
+        border-top:white 80px solid ;
+        border-right:rgb(255, 0, 0) 92px solid;
+        border-bottom:white 80px solid ;
+        border-left:rgb(0, 149, 255) 93px solid;
+       }
+       .b12{
+        border-top:gold 80px solid ;
+        border-right:white 93px solid;
+        border-bottom:white 80px solid ;
+        border-left:white 93px solid;
+       }
+       .b13{
+        border-top:rgb(255, 255, 255) 80px solid ;
+        border-right:white 93px solid;
+        border-bottom:rgb(245, 4, 4) 80px solid ;
+        border-left:white 93px solid;
+       }
+       .b14{
+        border-radius: 100%;
+        border-top:gold 50px solid ;
+        border-right:rgb(255, 0, 0) 50px solid;
+        border-bottom:rgb(0, 255, 38) 50px solid ;
+        border-left:rgb(0, 149, 255) 50px solid;
+       }
+       .b15{
+        border-radius: 90px;
+        border-top:rgb(255, 255, 252) 50px solid ;
+        border-right:rgb(255, 0, 0) 50px solid;
+        border-bottom:rgb(250, 252, 250) 50px solid ;
+        border-left:rgb(0, 149, 255) 50px solid;
+       }
+    </style>
+</head>
+<body>
+<div class="border b1"><h1>OGGY</h1></div>
+<div class="border b2"><h1>BOB</h1></div>
+<div class="border b3"><h1>JACK</h1></div>
+<div class="border b4"><h1>OLI</h1></div>
+<div class="border b5"><h1>TOM</h1></div>
+<div class="border b6"><h1>JOY</h1></div>
+<div class="border b7"></div>
+<div class="border b8"></div>
+<div class="border b9"></div>
+<div class="border b10"></div>    
+<div class="border b11"></div>    
+<div class="border b12"></div>    
+<div class="border b13"></div>    
+<div class="border b14"></div>    
+<div class="border b15"></div>   
+</body>
+</html>

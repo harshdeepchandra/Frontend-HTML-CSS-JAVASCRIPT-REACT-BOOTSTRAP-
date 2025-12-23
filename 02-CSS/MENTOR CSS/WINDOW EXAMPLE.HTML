@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Window layout</title>
+    <style>
+    *{ margin:0;}
+    .bg1{ background-color:tomato;}
+    .bg2{ background:royalblue;}
+    .bg3{ background:gold;}
+    .bg4{ background:teal;}
+    .fl{ float:left;}
+    .fr{ float:right;}
+    .new{ float:left; margin-left:1%;}
+    .window{
+        width:80%;
+        height:80vh;
+        /*margin-left:10%;*/
+        /*margin-top:10vh;*/
+        /*y,x*/
+        margin:10vh auto;
+    }
+    .col-4{ width:24.25%; height:80vh;}
+    .col-1{ height:19.2vh; margin-bottom:1vh;}
+    .col-big{ height:39.5vh; margin-bottom:1vh;}
+        
+    </style>
+</head>
+<body>
+    <!--Window 8 layout Using HTML And CSS-->
+    <div class="window">
+        <div class="col-4 fl">
+            <div class="col-1 bg1"></div>
+            <div class="col-1 bg2"></div>
+            <div class="col-1 bg3"></div>
+            <div class="col-1 bg4"></div>
+        </div>
+        <div class="col-4 new">
+            <div class="col-1 bg1"></div>
+            <div class="col-1 bg2"></div>
+            <div class="col-1 bg3"></div>
+            <div class="col-1 bg4"></div>
+        </div>
+        <div class="col-4 new">
+            <div class="col-1 bg1"></div>
+            <div class="col-1 bg2"></div>
+            <div class="col-1 bg3"></div>
+            <div class="col-1 bg4"></div>
+        </div>
+        <div class="col-4 fr">
+            <div class="col-1 bg1"></div>
+            <div class="col-big bg2"></div>
+            <div class="col-1 bg4"></div>
+        </div>
+    </div>
+</body>
+</html>

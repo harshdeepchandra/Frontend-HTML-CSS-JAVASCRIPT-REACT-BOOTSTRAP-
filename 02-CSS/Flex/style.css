@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.container{
+ display:flex;   
+}
+.item{
+    width: 24.25%; 
+    height: 30vh;
+    border: 1px solid black;
+    flex-direction: row;
+    /* flex-direction: column; */
+}
